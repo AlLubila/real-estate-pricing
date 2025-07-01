@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* In styles/globals.css or tailwind.config if using @apply */
+.input-dark {
+  @apply w-full px-4 py-2 bg-slate-700 border border-slate-600 text-slate-100 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 placeholder-slate-400;
+}
+
